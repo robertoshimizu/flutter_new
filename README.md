@@ -1,16 +1,16 @@
-# flutter_new
+# Requirements
 
-A new Flutter project.
+Aplicativo para criar várias listas para serem usadas simultaneamente e sincronizadas na nuve após os dados serem salvos localmente (**Offline-first**)
 
-## Getting Started
+## 1. Funcionalidades
 
-This project is a starting point for a Flutter application.
+1. Autenticacção o mais simples possível
+2. Cadastrar várias listas diferentes
+3. Marcar e desmarcar itens reposicionando os desmarcados
+4. Soncronizar dados na nuvem
+5. Edição de usuário autenticado
+6. Configuração de dispositivo
 
-A few resources to get you started if this is your first Flutter project:
+## 1.1 Autenticação o mais simples possível
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A autenticação é necessárias para efetuar a sincronização e deve ser opcional, ou seja, solicitaa quando o usuário executar manualmente a sincronização
